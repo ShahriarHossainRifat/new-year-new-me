@@ -132,3 +132,6 @@ footer .btn-primary {
     color: #F15B22;
     background-color: white;
 }
+footer img {
+    margin-right: 15px;
+}
