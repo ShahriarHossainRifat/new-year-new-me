@@ -56,3 +56,45 @@ header .btn-primary {
 .my-failures ul li::before {
     content:"\2714\0020";
 }
+/* my-plans section styles */
+.my-plans {
+    text-align: center;
+    margin-top: 100px;
+}
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.my-plans .section-title {
+    margin-bottom: 40px;
+}
+.plan-item-title {
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.plan-item-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 18px;
+}
+.my-plans .image-button {
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 1140px;
+    text-align: left;
+    padding-top: 70px;
+    padding-left: 65px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.my-plans .image-button .section-title {
+    color: white;
+}
+.my-plans .image-button .btn-primary {
+    color: #F15B22;
+    background-color: white;
+}
