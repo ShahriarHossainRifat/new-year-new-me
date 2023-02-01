@@ -85,6 +85,8 @@ header .btn-primary {
     background-repeat: no-repeat;
     height: 300px;
     width: 1140px;
+    position: absolute;
+    left: 380px;
     text-align: left;
     padding-top: 70px;
     padding-left: 65px;
@@ -104,6 +106,7 @@ footer {
     display: flex;
     padding: 100px 200px;
     gap: 600px;
+    margin-top: 500px;
 }
 footer .section-title {
     color: white;
