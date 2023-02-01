@@ -98,3 +98,34 @@ header .btn-primary {
     color: #F15B22;
     background-color: white;
 }
+/* footer styles */
+footer {
+    background-color: black;
+    display: flex;
+    padding: 100px 200px;
+    gap: 600px;
+}
+footer .section-title {
+    color: white;
+}
+footer .section-description {
+    color: white;
+}
+footer .subscribe-text {
+    font-size: 20px;
+    color: white;
+}
+footer input {
+    border-color: white;
+    border-radius: 5px;
+    padding: 20px 20px;
+    color: white;
+    background-color: black;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+footer .btn-primary {
+    color: #F15B22;
+    background-color: white;
+}
