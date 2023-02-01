@@ -21,6 +21,10 @@ header .btn-primary {
     margin-bottom: 150px;
 }
 /* section styles */
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+}
 .section-description {
     color: #444343;
     font-size: 16px;
@@ -34,4 +38,21 @@ header .btn-primary {
     border-radius: 5px;
     border: none;
     padding: 20px;
+}
+/* my-failures section styles */
+.my-failures {
+    display: flex;
+    margin-top: 100px;
+    gap: 90px;
+    padding: 0px 400px;
+}
+.my-failures-section-items {
+    margin-top: 150px;
+}
+.my-failures ul {
+    list-style: none;
+    padding: 0px;
+}
+.my-failures ul li::before {
+    content:"\2714\0020";
 }
